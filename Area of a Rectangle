@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int length, width, perimeter;
+    
+    cout << "Please enter the dimensions of the rectangle:" << endl;
+    cout << "Length: ";
+    cin >> length;
+    cout << endl;
+    cout << "Width: ";
+    cin >> width;
+    cout << endl;
+    
+    perimeter = 2*(length + width);
+    cout << "Perimeter = " << perimeter << " inches" << endl;
+    
+
+    return 0;
+}
