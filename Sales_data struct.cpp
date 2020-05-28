@@ -1,4 +1,4 @@
-/* This program reads an unknown amount of user input (ISBN, units sold, and price) and computes the sum of
+/* This program reads an unknown amount of user input for textbook data (ISBN, units sold, and price) and computes the sum of
 units sold and revenue. ISBNs must be identical to add the values.*/
 
 #include <iostream>
